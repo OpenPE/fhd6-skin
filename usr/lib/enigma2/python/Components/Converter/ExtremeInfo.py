@@ -987,6 +987,18 @@ class ExtremeInfo(Poll, Converter,
         emu = ""
         cs = ""
         try:
+            f = open("/etc/CurrentBhCamName", "r")
+            content = f.read()
+            f.close()
+        except:
+            content = ""
+        contentInfo = content.split("\n")
+        if (content != ""):
+            emu = content
+            if emu.__contains__("\n"):
+                idx = emu.index("\n")
+                emu = emu[:idx]
+        try:
             f = open("/usr/bin/csactive", "r")
             content = f.read()
             f.close()

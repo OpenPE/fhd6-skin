@@ -9,8 +9,7 @@ class Picon_Prov(Renderer):
     __module__ = __name__
     searchPaths = ('/usr/share/enigma2/%s/',
                    '/media/cf/%s/',
-                   '/media/hdd/%s/', 
-                   '/media/sda1/%s/', 
+                   '/media/hdd/%s/',
                    '/media/usb/%s/')
                    
     def __init__(self):

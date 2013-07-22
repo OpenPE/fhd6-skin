@@ -15,21 +15,25 @@ class CamdInfo3(Converter, object):
 		camd = ""
 		if not info:
 			return ""
+
 		if fileExists("/tmp/cam.info"):
 			try:
 				camdlist = open("/tmp/cam.info", "r")
 			except:
-				return None	
+				return None
+
 		elif fileExists("/etc/init.d/softcam"):
 			try:
 				camdlist = os.popen("/etc/init.d/softcam info")
 			except:
 				return None
+
 		elif fileExists("/etc/init.d/cardserver"):
 			try:
 				camdlist = os.popen("/etc/init.d/cardserver info")
 			except:
 				return None
+
 		else:
 			return None
 

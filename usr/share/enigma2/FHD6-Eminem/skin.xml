@@ -115,12 +115,12 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
   <fonts>
     <font filename="DejaVuSans.ttf" name="Arial" scale="100" />
     <font filename="DejaVuSans.ttf" name="Regular" replacement="1" scale="100" />
-    <font filename="DejaVuSans.ttf" name="Porsche" replacement="1" scale="100" />
-    <font filename="DejaVuSans.ttf" name="micra-time" replacement="1" scale="100" />
-    <font filename="DejaVuSans.ttf" name="Clock" scale="100" />
-    <font filename="DejaVuSans.ttf" name="LCD" scale="100" />
-    <font filename="DejaVuSans.ttf" name="Console" scale="100" />
-    <font filename="DejaVuSans.ttf" name="Replacement" scale="100" replacement="1" />
+    <font filename="Eminem.ttf" name="Porsche" replacement="1" scale="100" />
+    <font filename="Eminem.ttf" name="micra-time" replacement="1" scale="100" />
+    <font filename="Eminem.ttf" name="Clock" scale="100" />
+    <font filename="Eminem.ttf" name="LCD" scale="100" />
+    <font filename="tuxtxt.ttf" name="Console" scale="100" />
+    <font filename="Eminem.ttf" name="Replacement" scale="100" replacement="1" />
   </fonts>
   <subtitles>
     <sub name="Subtitle_TTX" font="Regular;30" shadowColor="#40101010" shadowOffset="3,3" />
