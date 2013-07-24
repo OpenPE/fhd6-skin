@@ -688,7 +688,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <ePixmap pixmap="FHD6-Eminem/menu/select_o1.png" position="0,340" size="830,40" zPosition="1" alphatest="on" />
     <ePixmap pixmap="FHD6-Eminem/icons_menu/tvpro_zero1.png" position="580,170" size="200,150" zPosition="1" alphatest="on" />
     <!-- Sleep Timer -->
-    <eLabel text="Sleep Timer" font="Arial;16" position="50,135" size="200,18" zPosition="5" halign="center" backgroundColor="black" foregroundColor="grey" shadowColor="black" shadowOffset="-2,-2" transparent="1" />
+    <eLabel text="Sleep timer" font="Arial;16" position="50,135" size="200,18" zPosition="5" halign="center" backgroundColor="black" foregroundColor="grey" shadowColor="black" shadowOffset="-2,-2" transparent="1" />
     <ePixmap pixmap="FHD6-Eminem/icons_menu/tvpro_sleep-timer0.png" position="50,10" size="200,150" zPosition="1" alphatest="on" />
     <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/tvpro_sleep-timer1.png" position="50,10" size="200,150" zPosition="3">
       <convert type="MenuEntryCompare">sleep</convert>
@@ -733,7 +733,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
       <convert type="ConditionalShowHide" />
     </widget>
     <!-- Restart GUI -->
-    <eLabel text="Restart GUI" font="Arial;16" position="315,295" size="200,18" zPosition="5" halign="center" backgroundColor="black" foregroundColor="grey" shadowColor="black" shadowOffset="-2,-2" transparent="1" />
+    <eLabel text="Restart enigma" font="Arial;16" position="315,295" size="200,18" zPosition="5" halign="center" backgroundColor="black" foregroundColor="grey" shadowColor="black" shadowOffset="-2,-2" transparent="1" />
     <ePixmap pixmap="FHD6-Eminem/icons_menu/tvpro_restart-gui0.png" position="315,170" size="200,150" zPosition="1" alphatest="on" />
     <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/tvpro_restart-gui1.png" position="315,170" size="200,150" zPosition="3">
       <convert type="MenuEntryCompare">restart_enigma</convert>
@@ -748,7 +748,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
       <convert type="ConditionalShowHide" />
     </widget>
     <!-- Shutdown -->
-    <eLabel text="Shutdown" font="Arial;16" position="580,135" size="200,18" zPosition="5" halign="center" backgroundColor="black" foregroundColor="grey" shadowColor="black" shadowOffset="-2,-2" transparent="1" />
+    <eLabel text="Deep standby" font="Arial;16" position="580,135" size="200,18" zPosition="5" halign="center" backgroundColor="black" foregroundColor="grey" shadowColor="black" shadowOffset="-2,-2" transparent="1" />
     <ePixmap pixmap="FHD6-Eminem/icons_menu/tvpro_shutdown0.png" position="580,10" size="200,150" zPosition="1" alphatest="on" />
     <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/tvpro_shutdown1.png" position="580,10" size="200,150" zPosition="3">
       <convert type="MenuEntryCompare">deep_standby</convert>
@@ -925,7 +925,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
 			</convert>
     </widget>
   </screen>
-  <screen name="Menu" position="60,120" size="1160,520" title="Gut">
+  <screen name="Menu" position="60,120" size="1160,520" title="Menu">
     <widget source="global.CurrentTime" render="Label" position="65,415" size="200,60" font="Regular;60" zPosition="5" halign="right" foregroundColor="blue_tux" transparent="1">
       <convert type="TuxClockToText">Default</convert>
     </widget>
@@ -1146,9 +1146,6 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
   </screen>
   <screen name="About" position="center,center" size="772,484" title="About">
     <widget name="AboutScrollLabel" font="Regular; 22" position="48,8" size="682,460" zPosition="0" halign="center" transparent="1" foregroundColor="foreground" backgroundColor="background" valign="top" />
-    <eLabel name="new eLabel" position="330,438" size="400,30" text="FHD6 By Eminem" halign="center" font="Regular; 18" foregroundColor="win_tux" transparent="1" />
-    <ePixmap name="logo" position="52,427" size="154,39" pixmap="FHD6-Eminem/menu/logo.png" />
-    <eLabel name="new eLabel" position="80,410" size="100,20" text="Adapted by:" backgroundColor="transparent" />
   </screen>
   <screen name="LanguageSelection" position="225,180" size="830,380" title="Language selection">
     <eLabel position="380,10" size="2,360" backgroundColor="blue_tux2" />
