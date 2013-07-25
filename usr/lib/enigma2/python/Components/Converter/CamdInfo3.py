@@ -16,9 +16,9 @@ class CamdInfo3(Converter, object):
 		if not info:
 			return ""
 
-		if fileExists("/tmp/cam.info"):
+		if fileExists("/tmp/.cam.info"):
 			try:
-				camdlist = open("/tmp/cam.info", "r")
+				camdlist = open("/tmp/.cam.info", "r")
 			except:
 				return None
 

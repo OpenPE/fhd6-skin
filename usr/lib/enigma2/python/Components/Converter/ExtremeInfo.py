@@ -1018,7 +1018,7 @@ class ExtremeInfo(Poll, Converter,
         if ((cs != "") and (emu == "")):
             return cs
         try:
-            f = open("/tmp/cam.info", "r")
+            f = open("/tmp/.cam.info", "r")
             content = f.read()
             f.close()
         except:
@@ -1381,7 +1381,7 @@ class ExtremeInfo(Poll, Converter,
 	self.poll_enabled = True         
         using = ""
         try:
-            f = open("/tmp/cam.info", "r")
+            f = open("/tmp/.cam.info", "r")
             content = f.read()
             f.close()
         except:
@@ -1401,7 +1401,7 @@ class ExtremeInfo(Poll, Converter,
 	self.poll_enabled = True         
         using = ""
         try:
-            f = open("/tmp/cam.info", "r")
+            f = open("/tmp/.cam.info", "r")
             content = f.read()
             f.close()
         except:
@@ -1420,7 +1420,7 @@ class ExtremeInfo(Poll, Converter,
 	self.poll_enabled = True         
         using = ""
         try:
-            f = open("/tmp/cam.info", "r")
+            f = open("/tmp/.cam.info", "r")
             content = f.read()
             f.close()
         except:
@@ -1439,7 +1439,7 @@ class ExtremeInfo(Poll, Converter,
 	self.poll_enabled = True         
         using = ""
         try:
-            f = open("/tmp/cam.info", "r")
+            f = open("/tmp/.cam.info", "r")
             content = f.read()
             f.close()
         except:
@@ -1458,7 +1458,7 @@ class ExtremeInfo(Poll, Converter,
 	self.poll_enabled = True         
         using = ""
         try:
-            f = open("/tmp/cam.info", "r")
+            f = open("/tmp/.cam.info", "r")
             content = f.read()
             f.close()
         except:
@@ -1477,7 +1477,7 @@ class ExtremeInfo(Poll, Converter,
 	self.poll_enabled = True         
         using = ""
         try:
-            f = open("/tmp/cam.info", "r")
+            f = open("/tmp/.cam.info", "r")
             content = f.read()
             f.close()
         except:
@@ -1496,7 +1496,7 @@ class ExtremeInfo(Poll, Converter,
 	self.poll_enabled = True         
         using = ""
         try:
-            f = open("/tmp/cam.info", "r")
+            f = open("/tmp/.cam.info", "r")
             content = f.read()
             f.close()
         except:
