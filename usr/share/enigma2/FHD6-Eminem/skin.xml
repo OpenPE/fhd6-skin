@@ -655,7 +655,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
       <convert type="MenuEntryCompare">parental_setup</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/pro_wizard.png" position="30,240" size="128,128" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/main/wizard.png" position="30,240" size="128,128" zPosition="3">
       <convert type="MenuEntryCompare">default_wizard</convert>
       <convert type="ConditionalShowHide" />
     </widget>
@@ -2810,7 +2810,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <widget name="config" position="320,215" size="600,300" zPosition="5" scrollbarMode="showOnDemand" transparent="1" />
   </screen>
   <screen name="NetworkWizard" position="60,120" size="1160,520" title="Welcome">
-    <widget name="wizard" position="30,30" size="128,128" pixmap="FHD6-Eminem/icons_menu/pro_wizard.png" zPosition="10" transparent="1" alphatest="on" />
+    <widget name="wizard" position="30,30" size="128,128" pixmap="FHD6-Eminem/main/wizard.png" zPosition="10" transparent="1" alphatest="on" />
     <ePixmap pixmap="FHD6-Eminem/buttons/red.png" position="40,180" size="16,16" alphatest="blend" />
     <widget name="languagetext" position="70,178" size="240,40" font="Regular;18" />
     <eLabel text="EXIT &gt; Exit" position="40,480" size="120,22" font="Regular;20" zPosition="1" halign="right" backgroundColor="black" transparent="1" />
@@ -2826,7 +2826,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <widget name="config" position="320,215" size="600,302" zPosition="5" scrollbarMode="showOnDemand" transparent="1" />
   </screen>
   <screen name="DefaultWizard" position="60,120" size="1160,520" title="Welcome">
-    <widget name="wizard" position="30,30" size="128,128" pixmap="FHD6-Eminem/icons_menu/pro_wizard.png" zPosition="10" transparent="1" alphatest="on" />
+    <widget name="wizard" position="30,30" size="128,128" pixmap="FHD6-Eminem/main/wizard.png" zPosition="10" transparent="1" alphatest="on" />
     <ePixmap pixmap="FHD6-Eminem/buttons/red.png" position="40,180" size="16,16" alphatest="blend" />
     <widget name="languagetext" position="70,178" size="240,40" font="Regular;18" />
     <widget name="text" position="320,10" size="600,180" font="Regular;23" backgroundColor="background" transparent="1" />
@@ -2836,7 +2836,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <widget name="config" position="320,215" size="600,300" zPosition="5" scrollbarMode="showOnDemand" transparent="1" />
   </screen>
   <screen name="DefaultSatLists" position="60,120" size="1160,520" title="Welcome">
-    <widget name="wizard" position="30,30" size="128,128" pixmap="FHD6-Eminem/icons_menu/pro_wizard.png" zPosition="10" transparent="1" alphatest="on" />
+    <widget name="wizard" position="30,30" size="128,128" pixmap="FHD6-Eminem/main/wizard.png" zPosition="10" transparent="1" alphatest="on" />
     <ePixmap pixmap="FHD6-Eminem/buttons/red.png" position="40,180" size="16,16" alphatest="blend" />
     <widget name="languagetext" position="70,178" size="240,40" font="Regular;18" />
     <widget name="text" position="320,10" size="600,180" font="Regular;23" backgroundColor="background" transparent="1" />
@@ -2846,7 +2846,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <widget name="config" position="320,215" size="600,300" zPosition="5" scrollbarMode="showOnDemand" transparent="1" />
   </screen>
   <screen name="DreamPackageWizard" position="60,120" size="1160,520" title="Welcome">
-    <widget name="wizard" position="30,30" size="128,128" pixmap="FHD6-Eminem/icons_menu/pro_wizard.png" zPosition="10" transparent="1" alphatest="on" />
+    <widget name="wizard" position="30,30" size="128,128" pixmap="FHD6-Eminem/main/wizard.png" zPosition="10" transparent="1" alphatest="on" />
     <ePixmap pixmap="FHD6-Eminem/buttons/red.png" position="40,180" size="16,16" alphatest="blend" />
     <widget name="languagetext" position="70,178" size="240,40" font="Regular;18" />
     <widget name="text" position="320,10" size="600,180" font="Regular;23" backgroundColor="background" transparent="1" />
@@ -2856,7 +2856,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <widget name="config" position="320,215" size="600,300" zPosition="5" scrollbarMode="showOnDemand" transparent="1" />
   </screen>
   <screen name="ImageWizard" position="60,120" size="1160,520" title="Welcome">
-    <widget name="wizard" position="30,30" size="128,128" pixmap="FHD6-Eminem/icons_menu/pro_wizard.png" zPosition="10" transparent="1" alphatest="on" />
+    <widget name="wizard" position="30,30" size="128,128" pixmap="FHD6-Eminem/main/wizard.png" zPosition="10" transparent="1" alphatest="on" />
     <ePixmap pixmap="FHD6-Eminem/buttons/red.png" position="40,180" size="16,16" alphatest="blend" />
     <widget name="languagetext" position="70,178" size="240,40" font="Regular;18" />
     <widget name="rc" position="980,20" size="154,500" pixmaps="skin_default/rc.png,skin_default/rcold.png" zPosition="10" alphatest="on" />
@@ -2871,7 +2871,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <widget name="config" position="320,215" size="600,300" zPosition="5" scrollbarMode="showOnDemand" transparent="1" />
   </screen>
   <screen name="TutorialWizard" position="60,120" size="1160,520" title="Welcome">
-    <widget name="wizard" position="30,30" size="128,128" pixmap="FHD6-Eminem/icons_menu/pro_wizard.png" zPosition="10" transparent="1" alphatest="on" />
+    <widget name="wizard" position="30,30" size="128,128" pixmap="FHD6-Eminem/main/wizard.png" zPosition="10" transparent="1" alphatest="on" />
     <ePixmap pixmap="FHD6-Eminem/buttons/red.png" position="40,180" size="16,16" alphatest="blend" />
     <widget name="languagetext" position="70,178" size="240,40" font="Regular;18" />
     <widget name="rc" position="980,20" size="154,500" pixmaps="skin_default/rc.png,skin_default/rcold.png" zPosition="10" alphatest="on" />
@@ -2882,7 +2882,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <widget name="list" position="320,215" size="600,300" zPosition="3" />
   </screen>
   <screen name="VideoWizard" position="60,120" size="1160,520" title="Welcome">
-    <widget name="wizard" position="30,30" size="128,128" pixmap="FHD6-Eminem/icons_menu/pro_wizard.png" zPosition="10" transparent="1" alphatest="on" />
+    <widget name="wizard" position="30,30" size="128,128" pixmap="FHD6-Eminem/main/wizard.png" zPosition="10" transparent="1" alphatest="on" />
     <ePixmap pixmap="FHD6-Eminem/buttons/red.png" position="40,180" size="16,16" alphatest="blend" />
     <widget name="languagetext" position="70,178" size="240,40" font="Regular;18" />
     <widget name="portpic" position="160,230" size="150,150" zPosition="10" transparent="1" alphatest="on" />
@@ -2898,7 +2898,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <widget name="config" position="320,215" size="600,300" zPosition="5" scrollbarMode="showOnDemand" transparent="1" />
   </screen>
   <screen name="LanguageWizard" position="60,120" size="1160,520" title="Welcome">
-    <widget name="wizard" position="30,30" size="128,128" pixmap="FHD6-Eminem/icons_menu/pro_wizard.png" zPosition="10" transparent="1" alphatest="on" />
+    <widget name="wizard" position="30,30" size="128,128" pixmap="FHD6-Eminem/main/wizard.png" zPosition="10" transparent="1" alphatest="on" />
     <widget name="rc" position="980,20" size="154,500" pixmaps="skin_default/rc.png,skin_default/rcold.png" zPosition="10" alphatest="on" />
     <widget name="arrowdown" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" zPosition="11" alphatest="on" />
     <widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" zPosition="11" alphatest="on" />
