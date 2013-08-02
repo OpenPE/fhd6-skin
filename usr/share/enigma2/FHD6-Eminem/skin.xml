@@ -2803,27 +2803,34 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" zPosition="11" alphatest="on" />
     <widget name="arrowup" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" zPosition="11" alphatest="on" />
     <widget name="arrowup2" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" zPosition="11" alphatest="on" />
-    <widget name="text" position="320,10" size="600,180" font="Regular;23" backgroundColor="background" transparent="1" />
-    <widget source="list" render="Listbox" position="320,215" size="600,300" zPosition="3" scrollbarMode="showOnDemand" transparent="1">
+    <widget name="text" position="320,10" size="600,200" font="Regular;23" backgroundColor="background" transparent="1" />
+    <widget source="list" render="Listbox" position="320,230" size="600,300" zPosition="3" scrollbarMode="showOnDemand" transparent="1">
       <convert type="StringList" />
     </widget>
     <widget name="config" position="320,215" size="600,300" zPosition="5" scrollbarMode="showOnDemand" transparent="1" />
+		<eLabel name="new eLabel" position="15,430" size="600,22" text="You Can Control Your PE Via Our Android 4 App" halign="left" font="Regular; 18" foregroundColor="win_tux" transparent="1" />
+	<eLabel name="new eLabel" position="15,450" size="600,22" text="But First Take A Look At : http://e2pe.com/petable.html" halign="left" font="Regular; 18" foregroundColor="win_tux" transparent="1" />
+	<eLabel name="new eLabel" position="15,470" size="600,22" text="Then Search For Persian Grandeur On Google Play" halign="left" font="Regular; 18" foregroundColor="win_tux" transparent="1" />
+	<eLabel name="new eLabel" position="15,490" size="600,22" text="Or Download It From : https://www.mediafire.com/persianempire" halign="left" font="Regular; 18" foregroundColor="win_tux" transparent="1" />
   </screen>
   <screen name="NetworkWizard" position="60,120" size="1160,520" title="Welcome">
     <widget name="wizard" position="30,30" size="128,128" pixmap="FHD6-Eminem/main/wizard.png" zPosition="10" transparent="1" alphatest="on" />
     <ePixmap pixmap="FHD6-Eminem/buttons/red.png" position="40,180" size="16,16" alphatest="blend" />
     <widget name="languagetext" position="70,178" size="240,40" font="Regular;18" />
-    <eLabel text="EXIT &gt; Exit" position="40,480" size="120,22" font="Regular;20" zPosition="1" halign="right" backgroundColor="black" transparent="1" />
     <widget name="rc" position="980,20" size="154,500" pixmaps="skin_default/rc.png,skin_default/rcold.png" zPosition="10" alphatest="on" />
     <widget name="arrowdown" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" zPosition="11" alphatest="on" />
     <widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" zPosition="11" alphatest="on" />
     <widget name="arrowup" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" zPosition="11" alphatest="on" />
     <widget name="arrowup2" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" zPosition="11" alphatest="on" />
-    <widget name="text" position="320,10" size="600,180" font="Regular;23" backgroundColor="background" transparent="1" />
-    <widget source="list" render="Listbox" position="320,215" size="600,302" zPosition="3" scrollbarMode="showOnDemand" transparent="1">
+    <widget name="text" position="320,10" size="600,200" font="Regular;23" backgroundColor="background" transparent="1" />
+    <widget source="list" render="Listbox" position="320,230" size="600,302" zPosition="3" scrollbarMode="showOnDemand" transparent="1">
       <convert type="StringList" />
     </widget>
     <widget name="config" position="320,215" size="600,302" zPosition="5" scrollbarMode="showOnDemand" transparent="1" />
+	<eLabel name="new eLabel" position="15,430" size="600,22" text="You Can Control Your PE Via Our Android 4 App" halign="left" font="Regular; 18" foregroundColor="win_tux" transparent="1" />
+	<eLabel name="new eLabel" position="15,450" size="600,22" text="But First Take A Look At : http://e2pe.com/petable.html" halign="left" font="Regular; 18" foregroundColor="win_tux" transparent="1" />
+	<eLabel name="new eLabel" position="15,470" size="600,22" text="Then Search For Persian Grandeur On Google Play" halign="left" font="Regular; 18" foregroundColor="win_tux" transparent="1" />
+	<eLabel name="new eLabel" position="15,490" size="600,22" text="Or Download It From : https://www.mediafire.com/persianempire" halign="left" font="Regular; 18" foregroundColor="win_tux" transparent="1" />
   </screen>
   <screen name="DefaultWizard" position="60,120" size="1160,520" title="Welcome">
     <widget name="wizard" position="30,30" size="128,128" pixmap="FHD6-Eminem/main/wizard.png" zPosition="10" transparent="1" alphatest="on" />
@@ -2864,8 +2871,8 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" zPosition="11" alphatest="on" />
     <widget name="arrowup" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" zPosition="11" alphatest="on" />
     <widget name="arrowup2" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" zPosition="11" alphatest="on" />
-    <widget name="text" position="320,10" size="600,180" font="Regular;23" backgroundColor="background" transparent="1" />
-    <widget source="list" render="Listbox" position="320,215" size="600,300" zPosition="3" scrollbarMode="showOnDemand" transparent="1">
+    <widget name="text" position="320,10" size="600,200" font="Regular;23" backgroundColor="background" transparent="1" />
+    <widget source="list" render="Listbox" position="320,230" size="600,300" zPosition="3" scrollbarMode="showOnDemand" transparent="1">
       <convert type="StringList" />
     </widget>
     <widget name="config" position="320,215" size="600,300" zPosition="5" scrollbarMode="showOnDemand" transparent="1" />
@@ -2891,11 +2898,15 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" zPosition="11" alphatest="on" />
     <widget name="arrowup" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" zPosition="11" alphatest="on" />
     <widget name="arrowup2" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" zPosition="11" alphatest="on" />
-    <widget name="text" position="320,10" size="600,180" font="Regular;23" backgroundColor="background" transparent="1" />
-    <widget source="list" render="Listbox" position="320,215" size="600,300" zPosition="3" scrollbarMode="showOnDemand" transparent="1">
+    <widget name="text" position="320,10" size="600,200" font="Regular;23" backgroundColor="background" transparent="1" />
+    <widget source="list" render="Listbox" position="320,230" size="600,300" zPosition="3" scrollbarMode="showOnDemand" transparent="1">
       <convert type="StringList" />
     </widget>
     <widget name="config" position="320,215" size="600,300" zPosition="5" scrollbarMode="showOnDemand" transparent="1" />
+	<eLabel name="new eLabel" position="15,430" size="600,22" text="You Can Control Your PE Via Our Android 4 App" halign="left" font="Regular; 18" foregroundColor="win_tux" transparent="1" />
+	<eLabel name="new eLabel" position="15,450" size="600,22" text="But First Take A Look At : http://e2pe.com/petable.html" halign="left" font="Regular; 18" foregroundColor="win_tux" transparent="1" />
+	<eLabel name="new eLabel" position="15,470" size="600,22" text="Then Search For Persian Grandeur On Google Play" halign="left" font="Regular; 18" foregroundColor="win_tux" transparent="1" />
+	<eLabel name="new eLabel" position="15,490" size="600,22" text="Or Download It From : https://www.mediafire.com/persianempire" halign="left" font="Regular; 18" foregroundColor="win_tux" transparent="1" />
   </screen>
   <screen name="LanguageWizard" position="60,120" size="1160,520" title="Welcome">
     <widget name="wizard" position="30,30" size="128,128" pixmap="FHD6-Eminem/main/wizard.png" zPosition="10" transparent="1" alphatest="on" />
@@ -2904,8 +2915,8 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" zPosition="11" alphatest="on" />
     <widget name="arrowup" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" zPosition="11" alphatest="on" />
     <widget name="arrowup2" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" zPosition="11" alphatest="on" />
-    <widget name="text" position="320,10" size="600,180" font="Regular;23" backgroundColor="background" transparent="1" />
-    <widget source="languages" render="Listbox" position="320,215" size="600,300" scrollbarMode="showOnDemand">
+    <widget name="text" position="320,10" size="600,200" font="Regular;23" backgroundColor="background" transparent="1" />
+    <widget source="languages" render="Listbox" position="320,230" size="600,300" scrollbarMode="showOnDemand">
       <convert type="TemplatedMultiContent">
 				{"template": [
 						MultiContentEntryText(pos = (100, 10), size = (300, 50), flags = RT_HALIGN_LEFT, text = 1), # index 1 is the language name,
