@@ -8,9 +8,9 @@ from Components.config import *
 class Picon_Prov(Renderer):
     __module__ = __name__
     searchPaths = ('/usr/share/enigma2/%s/',
-                   '/media/cf/%s/',
                    '/media/hdd/%s/',
-                   '/media/usb/%s/')
+                   '/media/usb/%s/',
+                   '/media/cf/%s/')
                    
     def __init__(self):
         Renderer.__init__(self)

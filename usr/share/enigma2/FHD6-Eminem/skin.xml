@@ -2122,7 +2122,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <eLabel position="380,10" size="2,565" backgroundColor="blue_tux3" foregroundColor="undcdcdc" />
     <eLabel position="400,544" size="741,2" backgroundColor="blue_tux3" />
     <!-- Picon -->
-    <ePixmap pixmap="FHD6-Eminem/main/picon_default1.png" position="20,15" size="100,60" transparent="1" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/picon_default.png" position="20,15" size="100,60" transparent="1" alphatest="on" />
     <!-- Picon Next -->
     <widget source="ServiceEvent" render="Picon_Next" position="21,11" size="100,60" zPosition="2" transparent="1" alphatest="on" />
     <!-- Next Service Reference Info -->
@@ -2536,7 +2536,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
   </screen>
   <screen name="DVDPlayer" position="0,0" size="1280,720" title=" " flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD6-Eminem/menu/infobar_default.png" />
-    <ePixmap position="155,488" zPosition="3" size="100,60" pixmap="FHD6-Eminem/main/picon_default1.png" alphatest="blend" />
+    <ePixmap position="155,488" zPosition="3" size="100,60" pixmap="FHD6-Eminem/picon_default.png" alphatest="blend" />
     <!-- Time and Date -->
     <widget source="global.CurrentTime" render="Label" position="1023,489" size="120,40" font="Regular;38" valign="top" halign="right" backgroundColor="grey_tux" transparent="1">
       <convert type="TuxClockToText">Default</convert>
@@ -2651,7 +2651,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
   </screen>
   <screen name="MoviePlayer" position="0,0" size="1280,720" title=" " flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="FHD6-Eminem/menu/infobar_default.png" />
-    <ePixmap position="175,488" zPosition="1" size="100,60" pixmap="FHD6-Eminem/main/picon_default1.png" alphatest="blend" />
+    <ePixmap position="175,488" zPosition="1" size="100,60" pixmap="FHD6-Eminem/picon_default.png" alphatest="blend" />
     <widget source="session.CurrentService" render="Label" position="300,490" size="600,35" font="Regular;32" valign="top" noWrap="1" backgroundColor="black" transparent="1">
       <convert type="ServiceName">Name</convert>
     </widget>
@@ -2930,7 +2930,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
   </screen>
   <screen name="MyTubePlayer" position="7,-7" size="1280,720" title=" " flags="wfNoBorder" backgroundColor="transparent">
     <ePixmap position="152,529" zPosition="-1" size="1000,163" pixmap="FHD6-Eminem/Infobar_movi.png" />
-    <ePixmap position="225,361" zPosition="3" size="100,60" pixmap="FHD6-Eminem/main/picon_default1.png" alphatest="blend" />
+    <ePixmap position="225,361" zPosition="3" size="100,60" pixmap="FHD6-Eminem/picon_default.png" alphatest="blend" />
     <!-- Time and Date -->
     <widget source="global.CurrentTime" render="Label" position="994,553" size="105,27" font="Regular; 26" valign="center" halign="center" backgroundColor="grey_tux" transparent="1">
       <convert type="TuxClockToText">Default</convert>
