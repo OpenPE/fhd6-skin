@@ -560,55 +560,55 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
 				}
 			</convert>
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/pro_sub.png" position="30,240" size="128,128" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/sub.png" position="30,240" size="128,128" zPosition="3">
       <convert type="MenuEntryCompare">subtitle_selection</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/pro_media.png" position="30,240" size="128,128" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/media.png" position="30,240" size="128,128" zPosition="3">
       <convert type="MenuEntryCompare">media_player</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/pro_dvd.png" position="30,240" size="128,128" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/dvd.png" position="30,240" size="128,128" zPosition="3">
       <convert type="MenuEntryCompare">dvd_player</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/pro_time.png" position="30,240" size="128,128" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/time.png" position="30,240" size="128,128" zPosition="3">
       <convert type="MenuEntryCompare">timer_edit</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/pro_scart.png" position="30,240" size="128,128" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/scart.png" position="30,240" size="128,128" zPosition="3">
       <convert type="MenuEntryCompare">scart_switch</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/pro_info.png" position="30,240" size="128,128" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/info.png" position="30,240" size="128,128" zPosition="3">
       <convert type="MenuEntryCompare">info_screen</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/pro_plugin.png" position="30,240" size="128,128" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/plugin.png" position="30,240" size="128,128" zPosition="3">
       <convert type="MenuEntryCompare">plugin_selection</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/pro_setup.png" position="30,240" size="128,128" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/setup.png" position="30,240" size="128,128" zPosition="3">
       <convert type="MenuEntryCompare">setup_selection</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/pro_system.png" position="30,240" size="128,128" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/system.png" position="30,240" size="128,128" zPosition="3">
       <convert type="MenuEntryCompare">system_selection</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/pro_scan.png" position="30,240" size="128,128" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/scan.png" position="30,240" size="128,128" zPosition="3">
       <convert type="MenuEntryCompare">service_searching_selection</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/pro_standby.png" position="30,240" size="128,128" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/standby.png" position="30,240" size="128,128" zPosition="3">
       <convert type="MenuEntryCompare">standby_restart_list</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/pro_multi-quick.png" position="30,240" size="128,128" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/multi-quick.png" position="30,240" size="128,128" zPosition="3">
       <convert type="MenuEntryCompare">multi_quick</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_select.png" position="30,240" size="128,128" zPosition="1" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/select.png" position="30,240" size="128,128" zPosition="1" alphatest="on" />
   </screen>
   <screen name="menu_information" position="225,180" size="830,380" title="Information">
     <eLabel position="380,10" size="2,360" zPosition="2" backgroundColor="blue_tux2" />
@@ -622,18 +622,18 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
 				}
 			</convert>
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/pro_information.png" position="30,240" size="128,128" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/information.png" position="30,240" size="128,128" zPosition="3">
       <convert type="MenuEntryCompare">service_info_screen</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/pro_info-sys.png" position="30,240" size="128,128" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/info-sys.png" position="30,240" size="128,128" zPosition="3">
       <convert type="MenuEntryCompare">about_screen</convert>
       <convert type="ConditionalShowHide" />
     </widget>
   </screen>
   <screen name="menu_setup" position="225,180" size="830,380" title="Setup">
     <eLabel position="380,10" size="2,360" backgroundColor="blue_tux2" />
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_setup-menu.png" position="30,240" size="128,128" zPosition="1" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/setup-menu.png" position="30,240" size="128,128" zPosition="1" alphatest="on" />
     <eLabel text="Press OK on your remote control to continue." font="Regular;22" position="30,110" size="310,220" halign="center" foregroundColor="blue_tux" />
     <widget source="menu" render="Listbox" position="400,15" size="420,350" selectionPixmap="FHD6-Eminem/menu/select_m1.png" enableWrapAround="1" scrollbarMode="showNever" transparent="1">
       <convert type="TemplatedMultiContent">
@@ -643,15 +643,15 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
 				}
 			</convert>
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/pro_scan.png" position="30,240" size="128,128" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/scan.png" position="30,240" size="128,128" zPosition="3">
       <convert type="MenuEntryCompare">service_searching_selection</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/pro_system.png" position="30,240" size="128,128" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/system.png" position="30,240" size="128,128" zPosition="3">
       <convert type="MenuEntryCompare">system_selection</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/pro_control.png" position="30,240" size="128,128" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/control.png" position="30,240" size="128,128" zPosition="3">
       <convert type="MenuEntryCompare">parental_setup</convert>
       <convert type="ConditionalShowHide" />
     </widget>
@@ -659,19 +659,19 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
       <convert type="MenuEntryCompare">default_wizard</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/pro_factory-reset.png" position="30,240" size="128,128" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/factory-reset.png" position="30,240" size="128,128" zPosition="3">
       <convert type="MenuEntryCompare">factory_reset</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/pro_software.png" position="30,240" size="128,128" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/software.png" position="30,240" size="128,128" zPosition="3">
       <convert type="MenuEntryCompare">software_manager</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/pro_cross-epg.png" position="30,240" size="128,128" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/cross-epg.png" position="30,240" size="128,128" zPosition="3">
       <convert type="MenuEntryCompare">crossepg</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_select.png" position="30,240" size="128,128" zPosition="1" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/select.png" position="30,240" size="128,128" zPosition="1" alphatest="on" />
   </screen>
   <screen name="menu_shutdown" position="225,180" size="830,380" title="Standby / Restart">
     <widget source="menu" render="Listbox" position="1280,720" size="300,50" scrollbarMode="showOnDemand" enableWrapAround="1">
@@ -686,11 +686,11 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
 			</convert>
     </widget>
     <ePixmap pixmap="FHD6-Eminem/menu/select_o1.png" position="0,340" size="830,40" zPosition="1" alphatest="on" />
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/tvpro_zero1.png" position="580,170" size="200,150" zPosition="1" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/zero1.png" position="580,170" size="200,150" zPosition="1" alphatest="on" />
     <!-- Sleep Timer -->
     <eLabel text="Sleep timer" font="Arial;16" position="50,135" size="200,18" zPosition="5" halign="center" backgroundColor="black" foregroundColor="grey" shadowColor="black" shadowOffset="-2,-2" transparent="1" />
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/tvpro_sleep-timer0.png" position="50,10" size="200,150" zPosition="1" alphatest="on" />
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/tvpro_sleep-timer1.png" position="50,10" size="200,150" zPosition="3">
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/sleep-timer0.png" position="50,10" size="200,150" zPosition="1" alphatest="on" />
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/sleep-timer1.png" position="50,10" size="200,150" zPosition="3">
       <convert type="MenuEntryCompare">sleep</convert>
       <convert type="ConditionalShowHide" />
     </widget>
@@ -698,14 +698,14 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
       <convert type="MenuEntryCompare">sleep</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/tvpro_zero0.png" position="580,170" size="200,150" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/zero0.png" position="580,170" size="200,150" zPosition="3">
       <convert type="MenuEntryCompare">sleep</convert>
       <convert type="ConditionalShowHide" />
     </widget>
     <!-- Standby -->
     <eLabel text="Standby" font="Arial;16" position="50,295" size="200,18" zPosition="5" halign="center" backgroundColor="black" foregroundColor="grey" shadowColor="black" shadowOffset="-2,-2" transparent="1" />
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/tvpro_standby-power0.png" position="50,170" size="200,150" zPosition="1" alphatest="on" />
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/tvpro_standby-power1.png" position="50,170" size="200,150" zPosition="3">
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/standby-power0.png" position="50,170" size="200,150" zPosition="1" alphatest="on" />
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/standby-power1.png" position="50,170" size="200,150" zPosition="3">
       <convert type="MenuEntryCompare">standby</convert>
       <convert type="ConditionalShowHide" />
     </widget>
@@ -713,14 +713,14 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
       <convert type="MenuEntryCompare">standby</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/tvpro_zero0.png" position="580,170" size="200,150" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/zero0.png" position="580,170" size="200,150" zPosition="3">
       <convert type="MenuEntryCompare">standby</convert>
       <convert type="ConditionalShowHide" />
     </widget>
     <!-- Restart -->
     <eLabel text="Restart" font="Arial;16" position="315,135" size="200,18" zPosition="5" halign="center" backgroundColor="black" foregroundColor="grey" shadowColor="black" shadowOffset="-2,-2" transparent="1" />
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/tvpro_restart0.png" position="315,10" size="200,150" zPosition="1" alphatest="on" />
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/tvpro_restart1.png" position="315,10" size="200,150" zPosition="3">
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/restart0.png" position="315,10" size="200,150" zPosition="1" alphatest="on" />
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/restart1.png" position="315,10" size="200,150" zPosition="3">
       <convert type="MenuEntryCompare">restart</convert>
       <convert type="ConditionalShowHide" />
     </widget>
@@ -728,14 +728,14 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
       <convert type="MenuEntryCompare">restart</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/tvpro_zero0.png" position="580,170" size="200,150" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/zero0.png" position="580,170" size="200,150" zPosition="3">
       <convert type="MenuEntryCompare">restart</convert>
       <convert type="ConditionalShowHide" />
     </widget>
     <!-- Restart GUI -->
     <eLabel text="Restart enigma" font="Arial;16" position="315,295" size="200,18" zPosition="5" halign="center" backgroundColor="black" foregroundColor="grey" shadowColor="black" shadowOffset="-2,-2" transparent="1" />
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/tvpro_restart-gui0.png" position="315,170" size="200,150" zPosition="1" alphatest="on" />
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/tvpro_restart-gui1.png" position="315,170" size="200,150" zPosition="3">
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/restart-gui0.png" position="315,170" size="200,150" zPosition="1" alphatest="on" />
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/restart-gui1.png" position="315,170" size="200,150" zPosition="3">
       <convert type="MenuEntryCompare">restart_enigma</convert>
       <convert type="ConditionalShowHide" />
     </widget>
@@ -743,14 +743,14 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
       <convert type="MenuEntryCompare">restart_enigma</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/tvpro_zero0.png" position="580,170" size="200,150" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/zero0.png" position="580,170" size="200,150" zPosition="3">
       <convert type="MenuEntryCompare">restart_enigma</convert>
       <convert type="ConditionalShowHide" />
     </widget>
     <!-- Shutdown -->
     <eLabel text="Deep standby" font="Arial;16" position="580,135" size="200,18" zPosition="5" halign="center" backgroundColor="black" foregroundColor="grey" shadowColor="black" shadowOffset="-2,-2" transparent="1" />
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/tvpro_shutdown0.png" position="580,10" size="200,150" zPosition="1" alphatest="on" />
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/tvpro_shutdown1.png" position="580,10" size="200,150" zPosition="3">
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/shutdown0.png" position="580,10" size="200,150" zPosition="1" alphatest="on" />
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/shutdown1.png" position="580,10" size="200,150" zPosition="3">
       <convert type="MenuEntryCompare">deep_standby</convert>
       <convert type="ConditionalShowHide" />
     </widget>
@@ -758,7 +758,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
       <convert type="MenuEntryCompare">deep_standby</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/tvpro_zero0.png" position="580,170" size="200,150" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/zero0.png" position="580,170" size="200,150" zPosition="3">
       <convert type="MenuEntryCompare">deep_standby</convert>
       <convert type="ConditionalShowHide" />
     </widget>
@@ -778,8 +778,8 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <ePixmap pixmap="FHD6-Eminem/menu/select_o1.png" position="0,340" size="830,40" zPosition="1" alphatest="on" />
     <!-- Tuner configuration -->
     <eLabel text="Tuner configuration" font="Arial;15" position="50,135" size="200,17" zPosition="5" halign="center" backgroundColor="black" foregroundColor="grey" shadowColor="black" shadowOffset="-2,-2" transparent="1" />
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/tvpro_tuner-cfg0.png" position="50,10" size="200,150" zPosition="1" alphatest="on" />
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/tvpro_tuner-cfg1.png" position="50,10" size="200,150" zPosition="3">
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/tuner-cfg0.png" position="50,10" size="200,150" zPosition="1" alphatest="on" />
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/tuner-cfg1.png" position="50,10" size="200,150" zPosition="3">
       <convert type="MenuEntryCompare">tuner_setup</convert>
       <convert type="ConditionalShowHide" />
     </widget>
@@ -789,8 +789,8 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     </widget>
     <!-- Default services list -->
     <eLabel text="Default services lists" font="Arial;14" position="50,295" size="200,17" zPosition="5" halign="center" backgroundColor="black" foregroundColor="grey" shadowColor="black" shadowOffset="-2,-2" transparent="1" />
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/tvpro_default-services0.png" position="50,170" size="200,150" zPosition="1" alphatest="on" />
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/tvpro_default-services1.png" position="50,170" size="200,150" zPosition="3">
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/default-services0.png" position="50,170" size="200,150" zPosition="1" alphatest="on" />
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/default-services1.png" position="50,170" size="200,150" zPosition="3">
       <convert type="MenuEntryCompare">default_lists</convert>
       <convert type="ConditionalShowHide" />
     </widget>
@@ -800,8 +800,8 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     </widget>
     <!-- Automatic Scan -->
     <eLabel text="Automatic Scan" font="Arial;14" position="315,135" size="200,17" zPosition="5" halign="center" backgroundColor="black" foregroundColor="grey" shadowColor="black" shadowOffset="-2,-2" transparent="1" />
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/tvpro_avto-scan0.png" position="315,10" size="200,150" zPosition="1" alphatest="on" />
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/tvpro_avto-scan1.png" position="315,10" size="200,150" zPosition="3">
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/avto-scan0.png" position="315,10" size="200,150" zPosition="1" alphatest="on" />
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/avto-scan1.png" position="315,10" size="200,150" zPosition="3">
       <convert type="MenuEntryCompare">auto_scan</convert>
       <convert type="ConditionalShowHide" />
     </widget>
@@ -811,8 +811,8 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     </widget>
     <!-- Manual Scan -->
     <eLabel text="Manual Scan" font="Arial;15" position="315,295" size="200,17" zPosition="5" halign="center" backgroundColor="black" foregroundColor="grey" shadowColor="black" shadowOffset="-2,-2" transparent="1" />
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/tvpro_manual-scan0.png" position="315,170" size="200,150" zPosition="1" alphatest="on" />
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/tvpro_manual-scan1.png" position="315,170" size="200,150" zPosition="3">
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/manual-scan0.png" position="315,170" size="200,150" zPosition="1" alphatest="on" />
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/manual-scan1.png" position="315,170" size="200,150" zPosition="3">
       <convert type="MenuEntryCompare">manual_scan</convert>
       <convert type="ConditionalShowHide" />
     </widget>
@@ -822,8 +822,8 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     </widget>
     <!-- Satfinder -->
     <eLabel text="Satfinder" font="Arial;15" position="580,135" size="200,17" zPosition="5" halign="center" backgroundColor="black" foregroundColor="grey" shadowColor="black" shadowOffset="-2,-2" transparent="1" />
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/tvpro_satfinder0.png" position="580,10" size="200,150" zPosition="1" alphatest="on" />
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/tvpro_satfinder1.png" position="580,10" size="200,150" zPosition="3">
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/satfinder0.png" position="580,10" size="200,150" zPosition="1" alphatest="on" />
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/satfinder1.png" position="580,10" size="200,150" zPosition="3">
       <convert type="MenuEntryCompare">satfinder</convert>
       <convert type="ConditionalShowHide" />
     </widget>
@@ -833,8 +833,8 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     </widget>
     <!-- Positioner setup -->
     <eLabel text="Positioner setup" font="Arial;14" position="580,295" size="200,17" zPosition="5" halign="center" backgroundColor="black" foregroundColor="grey" shadowColor="black" shadowOffset="-2,-2" transparent="1" />
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/tvpro_positioner0.png" position="580,170" size="200,150" zPosition="1" alphatest="on" />
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/tvpro_positioner1.png" position="580,170" size="200,150" zPosition="3">
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/positioner0.png" position="580,170" size="200,150" zPosition="1" alphatest="on" />
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/positioner1.png" position="580,170" size="200,150" zPosition="3">
       <convert type="MenuEntryCompare">positioner_setup</convert>
       <convert type="ConditionalShowHide" />
     </widget>
@@ -845,7 +845,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
   </screen>
   <screen name="menu_system" position="225,180" size="830,380" title="System">
     <eLabel position="380,10" size="2,360" backgroundColor="blue_tux2" />
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_system-menu-0.png" position="30,240" size="128,128" zPosition="1" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/system-menu-0.png" position="30,240" size="128,128" zPosition="1" alphatest="on" />
     <eLabel text="Press OK on your remote control to continue." font="Regular;22" position="30,110" size="310,220" halign="center" foregroundColor="blue_tux" />
     <widget source="menu" render="Listbox" position="400,15" size="420,350" selectionPixmap="FHD6-Eminem/menu/select_m1.png" enableWrapAround="1" scrollbarMode="showNever" transparent="1">
       <convert type="TemplatedMultiContent">
@@ -855,66 +855,66 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
 				}
 			</convert>
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/pro_system-menu-a1.png" position="30,240" size="128,128" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/system-menu-a1.png" position="30,240" size="128,128" zPosition="3">
       <convert type="MenuEntryCompare">av_setup</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/pro_system-menu-a2.png" position="30,240" size="128,128" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/system-menu-a2.png" position="30,240" size="128,128" zPosition="3">
       <convert type="MenuEntryCompare">autores_setup</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/pro_system-menu-a3.png" position="30,240" size="128,128" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/system-menu-a3.png" position="30,240" size="128,128" zPosition="3">
       <convert type="MenuEntryCompare">language_setup</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/pro_system-menu-a4.png" position="30,240" size="128,128" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/system-menu-a4.png" position="30,240" size="128,128" zPosition="3">
       <convert type="MenuEntryCompare">usage_setup</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/pro_system-menu-a5.png" position="30,240" size="128,128" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/system-menu-a5.png" position="30,240" size="128,128" zPosition="3">
       <convert type="MenuEntryCompare">timezone_setup</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/pro_system-menu-a6.png" position="30,240" size="128,128" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/system-menu-a6.png" position="30,240" size="128,128" zPosition="3">
       <convert type="MenuEntryCompare">network_setup</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/pro_system-menu-a7.png" position="30,240" size="128,128" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/system-menu-a7.png" position="30,240" size="128,128" zPosition="3">
       <convert type="MenuEntryCompare">input_device_setup</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/pro_system-menu-a8.png" position="30,240" size="128,128" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/system-menu-a8.png" position="30,240" size="128,128" zPosition="3">
       <convert type="MenuEntryCompare">Display_lcd</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/pro_system-menu-a9.png" position="30,240" size="128,128" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/system-menu-a9.png" position="30,240" size="128,128" zPosition="3">
       <convert type="MenuEntryCompare">keyboard</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/pro_system-menu-b1.png" position="30,240" size="128,128" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/system-menu-b1.png" position="30,240" size="128,128" zPosition="3">
       <convert type="MenuEntryCompare">RecordPaths</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/pro_system-menu-b2.png" position="30,240" size="128,128" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/system-menu-b2.png" position="30,240" size="128,128" zPosition="3">
       <convert type="MenuEntryCompare">sibsetup</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/pro_system-menu-b3.png" position="30,240" size="128,128" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/system-menu-b3.png" position="30,240" size="128,128" zPosition="3">
       <convert type="MenuEntryCompare">video_finetune</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/pro_system-menu-b4.png" position="30,240" size="128,128" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/system-menu-b4.png" position="30,240" size="128,128" zPosition="3">
       <convert type="MenuEntryCompare">skin_selector</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/pro_system-menu-b5.png" position="30,240" size="128,128" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/system-menu-b5.png" position="30,240" size="128,128" zPosition="3">
       <convert type="MenuEntryCompare">About_MoreInfo</convert>
       <convert type="ConditionalShowHide" />
     </widget>
   </screen>
   <screen name="menu_harddisk" position="225,180" size="830,380" title=" ">
     <eLabel position="380,10" size="2,360" backgroundColor="blue_tux2" />
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_hdd.png" position="30,240" size="128,128" zPosition="1" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/hdd.png" position="30,240" size="128,128" zPosition="1" alphatest="on" />
     <!-- widget source="title" render="Label"   position="140,5" size="220,50" font="Regular;22" halign="right" zPosition="1" foregroundColor="blue_tux" backgroundColor="blue_tux4" transparent="1" / -->
     <widget source="menu" render="Listbox" position="400,20" size="420,350" enableWrapAround="1" scrollbarMode="showNever" transparent="1">
       <convert type="TemplatedMultiContent">
@@ -945,7 +945,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <widget source="global.CurrentTime" render="TuxWatches" position="44,436" size="30,30" zPosition="2" foregroundColor="blue_tux3" alphatest="on">
       <convert type="TuxExtraNumText">hourHand</convert>
     </widget>
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_movie.png" position="30,10" size="100,100" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/movie.png" position="30,10" size="100,100" alphatest="on" />
     <eLabel position="380,10" size="2,505" backgroundColor="blue_tux2" />
     <!--widget source="title" render="Label"  position="20,110" size="220,35" font="Regular;23" / -->
     <widget source="menu" render="Listbox" position="40,150" size="300,225" scrollbarMode="showOnDemand">
@@ -956,13 +956,13 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
   </screen>
   <screen name="Subtitles" position="225,180" size="830,380" title="Subtitles selection">
     <eLabel position="380,10" size="2,360" backgroundColor="blue_tux2" />
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_sub.png" position="30,240" size="128,128" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/sub.png" position="30,240" size="128,128" alphatest="on" />
     <widget name="config" position="400,15" size="420,350" zPosition="3" scrollbarMode="showOnDemand" backgroundColor="blue_tux5" transparent="1" />
   </screen>
   <screen name="SubtitleDisplay" position="0,0" size="1280,720" zPosition="-1" flags="wfNoBorder" backgroundColor="transparent" />
   <screen name="PluginBrowser" position="225,180" size="830,380" title="Plugin browser">
     <eLabel position="380,10" size="2,360" backgroundColor="blue_tux2" />
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_plugin.png" position="30,240" size="128,128" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/plugin.png" position="30,240" size="128,128" alphatest="on" />
     <widget name="list" position="400,15" size="425,350" zPosition="3" selectionPixmap="FHD6-Eminem/menu/select_m2.png" enableWrapAround="1" scrollbarMode="showOnDemand" transparent="1" />
     <ePixmap pixmap="FHD6-Eminem/buttons/red.png" position="40,60" size="16,16" alphatest="blend" />
     <ePixmap pixmap="FHD6-Eminem/buttons/green.png" position="40,100" size="16,16" alphatest="blend" />
@@ -977,7 +977,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <eLabel position="390,160" size="435,2" backgroundColor="grey_tux" />
     <eLabel position="390,230" size="435,2" backgroundColor="grey_tux" />
     <eLabel position="390,300" size="435,2" backgroundColor="grey_tux" />
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_timer-editor.png" position="30,240" size="128,128" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/timer-editor.png" position="30,240" size="128,128" alphatest="on" />
     <widget name="timerlist" position="390,20" size="435,350" zPosition="3" scrollbarMode="showOnDemand" transparent="1" />
     <ePixmap pixmap="FHD6-Eminem/buttons/red.png" position="40,60" size="16,16" alphatest="blend" />
     <ePixmap pixmap="FHD6-Eminem/buttons/green.png" position="40,100" size="16,16" alphatest="blend" />
@@ -1003,7 +1003,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
   </screen>
   <screen name="TimerEntry" position="225,180" size="830,380" title="Timer entry">
     <eLabel position="380,10" size="2,360" backgroundColor="blue_tux2" />
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_timer-editor.png" position="30,240" size="128,128" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/timer-editor.png" position="30,240" size="128,128" alphatest="on" />
     <widget name="config" position="400,15" size="420,350" scrollbarMode="showOnDemand" />
     <widget name="cancel" pixmap="FHD6-Eminem/buttons/red.png" position="40,60" size="16,16" alphatest="on" />
     <widget name="ok" pixmap="FHD6-Eminem/buttons/green.png" position="40,100" size="16,16" alphatest="on" />
@@ -1020,7 +1020,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
       <convert type="TuxClockToText">Format::%S</convert>
     </widget>
     <eLabel position="380,10" size="2,360" backgroundColor="blue_tux2" />
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_sleep2.png" position="30,240" size="128,128" zPosition="1" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/sleep2.png" position="30,240" size="128,128" zPosition="1" alphatest="on" />
     <widget name="current_status" position="430,65" size="380,30" valign="center" font="Regular;19" />
     <widget name="red" pixmap="FHD6-Eminem/buttons/red.png" position="400,126" size="16,16" alphatest="on" />
     <widget name="green" pixmap="FHD6-Eminem/buttons/green.png" position="400,166" size="16,16" alphatest="on" />
@@ -1035,7 +1035,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <widget name="aftertext" position="695,30" size="100,25" font="Regular;19" />
   </screen>
   <screen name="ServiceInfo" position="225,180" size="830,380" title="Serviceinfo">
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_info-sat.png" position="35,30" size="100,100" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/info-sat.png" position="35,30" size="100,100" alphatest="on" />
     <widget source="session.FrontendStatus" render="Progress" position="35,200" size="9,94" zPosition="1" orientation="orBottomToTop" pixmap="FHD6-Eminem/icons/icon_snr.png" borderWidth="2" borderColor="un111111" transparent="1">
       <convert type="FrontendInfo">SNR</convert>
     </widget>
@@ -1149,7 +1149,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
   </screen>
   <screen name="LanguageSelection" position="225,180" size="830,380" title="Language selection">
     <eLabel position="380,10" size="2,360" backgroundColor="blue_tux2" />
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_language.png" position="30,240" size="128,128" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/language.png" position="30,240" size="128,128" alphatest="on" />
     <widget source="languages" render="Listbox" position="400,15" size="420,350" selectionPixmap="FHD6-Eminem/menu/select_m2.png" enableWrapAround="1" scrollbarMode="showOnDemand">
       <convert type="TemplatedMultiContent">
 				{"template": [
@@ -1163,7 +1163,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     </widget>
   </screen>
   <screen name="AdapterSetupConfiguration" position="225,180" size="830,380" title="Network Configuration">
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_network.png" position="30,240" size="128,128" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/network.png" position="30,240" size="128,128" alphatest="on" />
     <eLabel position="380,10" size="2,360" backgroundColor="blue_tux2" />
     <eLabel position="400,315" size="420,2" backgroundColor="blue_tux2" />
     <widget source="description" render="Label" position="10,10" size="350,220" font="Regular;20" halign="center" valign="center" foregroundColor="blue_tux" backgroundColor="blue_tux4" transparent="1" />
@@ -1399,7 +1399,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
   </screen>
   <screen name="InputDeviceSelection" position="225,180" size="830,380" title="Select input device">
     <eLabel position="380,10" size="2,360" backgroundColor="blue_tux2" />
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_input-device.png" position="30,240" size="128,128" zPosition="1" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/input-device.png" position="30,240" size="128,128" zPosition="1" alphatest="on" />
     <widget source="list" render="Listbox" position="400,15" size="420,280" zPosition="10" scrollbarMode="showOnDemand" enableWrapAround="1">
       <convert type="TemplatedMultiContent">
         <!--  device, description, devicepng, divpng  -->
@@ -1438,7 +1438,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
   </screen>
   <screen name="UpdatePluginMenu" position="225,180" size="830,380" title="Software management">
     <eLabel position="380,10" size="2,360" backgroundColor="blue_tux2" />
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_software2.png" position="30,240" size="128,128" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/software2.png" position="30,240" size="128,128" alphatest="on" />
     <widget source="menu" render="Listbox" position="400,15" size="420,280" selectionPixmap="FHD6-Eminem/menu/select_m1.png" enableWrapAround="1" scrollbarMode="showNever" transparent="1">
       <convert type="TemplatedMultiContent">
 					{"template": [
@@ -1629,7 +1629,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
   </screen>
   <screen name="BackupSelection" position="225,180" size="830,380" title="Select files/folders to backup">
     <eLabel position="380,10" size="2,360" backgroundColor="blue_tux2" />
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_select.png" position="30,240" size="128,128" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/select.png" position="30,240" size="128,128" alphatest="on" />
     <widget name="checkList" position="400,15" size="420,350" transparent="1" scrollbarMode="showOnDemand" />
     <ePixmap pixmap="FHD6-Eminem/buttons/red.png" position="40,60" size="16,16" alphatest="blend" />
     <ePixmap pixmap="FHD6-Eminem/buttons/green.png" position="40,100" size="16,16" alphatest="blend" />
@@ -1659,7 +1659,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
   </screen>
   <screen name="ScriptExecuter" position="225,180" size="830,380" title="Script Executer">
     <eLabel position="380,10" size="2,360" backgroundColor="blue_tux2" />
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_script.png" position="30,240" size="128,128" zPosition="1" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/script.png" position="30,240" size="128,128" zPosition="1" alphatest="on" />
     <widget name="list" position="400,10" size="420,360" scrollbarMode="showOnDemand" />
     <ePixmap pixmap="FHD6-Eminem/buttons/red.png" position="40,60" size="16,16" alphatest="blend" />
     <ePixmap pixmap="FHD6-Eminem/buttons/green.png" position="40,100" size="16,16" alphatest="blend" />
@@ -1683,7 +1683,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
   </screen>
   <screen name="NimSelection" position="225,180" size="830,380" title="Choose Tuner">
     <eLabel position="380,10" size="2,360" backgroundColor="blue_tux2" />
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_tuner-cfg.png" position="30,240" size="128,128" zPosition="1" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/tuner-cfg.png" position="30,240" size="128,128" zPosition="1" alphatest="on" />
     <widget source="nimlist" render="Listbox" position="400,15" size="420,350" scrollbarMode="showOnDemand">
       <convert type="TemplatedMultiContent">
 				{"template": [
@@ -2051,7 +2051,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <eLabel position="20,250" size="1060,2" backgroundColor="blue_tux2" />
     <eLabel position="340,260" size="3,320" backgroundColor="blue_tux2" />
     <eLabel text="Satfinder" position="20,272" size="290,60" font="Clock;28" halign="right" backgroundColor="black" foregroundColor="blue_tux5" transparent="1" />
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_satfinder.png" position="170,350" size="128,128" zPosition="1" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/satfinder.png" position="170,350" size="128,128" zPosition="1" alphatest="on" />
     <ePixmap pixmap="FHD6-Eminem/icons/icon_clock.png" position="20,495" size="100,60" zPosition="1" alphatest="on" />
     <widget source="global.CurrentTime" render="TuxWatches" position="42,498" size="54,54" zPosition="4" alphatest="on" foregroundColor="red">
       <convert type="TuxExtraNumText">secHand</convert>
@@ -2086,7 +2086,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
   </screen>
   <screen name="ParentalControlSetup" position="225,180" size="830,380" title="Parental control setup">
     <eLabel position="380,10" size="2,360" backgroundColor="blue_tux2" />
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_control.png" position="30,240" size="128,128" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/control.png" position="30,240" size="128,128" alphatest="on" />
     <widget name="config" position="400,15" size="420,350" scrollbarMode="showOnDemand" />
     <ePixmap pixmap="FHD6-Eminem/buttons/red.png" position="40,140" size="16,16" alphatest="on" />
     <ePixmap pixmap="FHD6-Eminem/buttons/green.png" position="40,180" size="16,16" alphatest="on" />
@@ -2095,12 +2095,12 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
   </screen>
   <screen name="ParentalControlChangePin" position="225,180" size="830,380" title="Change pin code">
     <eLabel position="380,10" size="2,360" backgroundColor="blue_tux2" />
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_control.png" position="30,240" size="128,128" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/control.png" position="30,240" size="128,128" alphatest="on" />
     <widget name="config" position="400,15" size="420,350" scrollbarMode="showOnDemand" />
   </screen>
   <screen name="ParentalControlEditor" position="225,180" size="830,380" title="Parental control services Editor">
     <eLabel position="380,10" size="2,360" backgroundColor="blue_tux2" />
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_control.png" position="30,240" size="128,128" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/control.png" position="30,240" size="128,128" alphatest="on" />
     <widget name="servicelist" position="400,15" size="420,355" scrollbarMode="showOnDemand" />
     <ePixmap pixmap="FHD6-Eminem/buttons/red.png" position="40,140" size="16,16" alphatest="on" />
     <ePixmap pixmap="FHD6-Eminem/buttons/green.png" position="40,180" size="16,16" alphatest="on" />
@@ -2230,7 +2230,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     </widget>
   </screen>
   <screen name="BouquetSelector" position="225,180" size="830,380" title="Choose bouquet">
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_bouquet.png" position="30,240" size="128,128" zPosition="1" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/bouquet.png" position="30,240" size="128,128" zPosition="1" alphatest="on" />
     <eLabel position="380,10" size="2,360" backgroundColor="blue_tux2" />
     <eLabel position="400,319" size="420,2" backgroundColor="blue_tux2" />
     <widget name="menu" position="400,10" size="420,250" scrollbarMode="showOnDemand" />
@@ -2258,7 +2258,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <widget source="global.CurrentTime" render="Label" position="10,551" size="350,22" font="Regular;20" zPosition="5" halign="center" foregroundColor="blue_tux" backgroundColor="blue_tux4" transparent="1">
       <convert type="TuxClockToText">Date</convert>
     </widget>
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_epg.png" position="30,10" size="100,100" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/epg.png" position="30,10" size="100,100" alphatest="on" />
     <eLabel text="Eventview" position="140,20" size="220,50" font="Regular;22" halign="right" zPosition="1" foregroundColor="blue_tux" backgroundColor="blue_tux4" transparent="1" />
     <eLabel position="380,10" size="2,565" backgroundColor="blue_tux2" />
     <eLabel position="400,476" size="743,2" backgroundColor="blue_tux5" />
@@ -2311,7 +2311,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <widget source="global.CurrentTime" render="TuxWatches" position="44,496" size="30,30" zPosition="2" foregroundColor="blue_tux3" alphatest="on">
       <convert type="TuxExtraNumText">hourHand</convert>
     </widget>
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_epg.png" position="30,10" size="100,100" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/epg.png" position="30,10" size="100,100" alphatest="on" />
     <eLabel text="EPG Selection" position="140,15" size="220,50" font="Regular;22" halign="right" zPosition="1" foregroundColor="blue_tux" backgroundColor="blue_tux4" transparent="1" />
     <eLabel position="380,10" size="2,565" backgroundColor="blue_tux2" />
     <eLabel position="400,544" size="743,2" backgroundColor="blue_tux2" />
@@ -2353,7 +2353,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <widget source="global.CurrentTime" render="TuxWatches" position="44,496" size="30,30" zPosition="2" foregroundColor="blue_tux3" alphatest="on">
       <convert type="TuxExtraNumText">hourHand</convert>
     </widget>
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_epg.png" position="30,10" size="100,100" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/epg.png" position="30,10" size="100,100" alphatest="on" />
     <eLabel text="Multi-EPG" position="140,20" size="220,50" font="Regular;22" halign="right" zPosition="1" foregroundColor="blue_tux" backgroundColor="blue_tux4" transparent="1" />
     <eLabel position="380,10" size="2,565" backgroundColor="blue_tux2" />
     <eLabel position="410,62" size="723,2" backgroundColor="blue_tux2" />
@@ -2447,7 +2447,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <widget name="key_green" position="635,555" size="170,21" font="Regular;17" valign="top" halign="left" foregroundColor="blue_tux" backgroundColor="blue_tux4" transparent="1" />
   </screen>
   <screen name="MediaPlayer" position="100,120" size="1080,520" title="MediaPlayer">
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_media-player.png" position="25,10" size="90,90" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/media-player.png" position="25,10" size="90,90" alphatest="on" />
     <eLabel position="18,148" size="2,282" backgroundColor="blue_tux2" />
     <eLabel position="540,148" size="2,282" backgroundColor="blue_tux2" />
     <eLabel position="20,148" size="520,2" backgroundColor="blue_tux2" />
@@ -2493,7 +2493,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
   </screen>
   <screen name="FileBrowser" position="225,180" size="830,380" title="DVD File Browser">
     <eLabel position="380,10" size="2,360" backgroundColor="blue_tux2" />
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_dvd-player.png" position="30,240" size="128,128" zPosition="1" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/dvd-player.png" position="30,240" size="128,128" zPosition="1" alphatest="on" />
     <widget name="filelist" position="400,15" size="425,350" zPosition="3" scrollbarMode="showOnDemand" transparent="1" />
     <ePixmap pixmap="FHD6-Eminem/buttons/red.png" position="40,60" size="16,16" alphatest="blend" />
     <ePixmap pixmap="FHD6-Eminem/buttons/green.png" position="40,100" size="16,16" alphatest="blend" />
@@ -2504,7 +2504,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
   </screen>
   <screen name="picshow" position="225,180" size="830,380" title="PicturePlayer">
     <eLabel position="380,10" size="2,360" backgroundColor="blue_tux2" />
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_picshow.png" position="30,240" size="128,128" zPosition="1" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/picshow.png" position="30,240" size="128,128" zPosition="1" alphatest="on" />
     <widget source="label" render="Label" position="400,0" size="220,140" font="Regular;19" backgroundColor="dark" transparent="1" />
     <widget name="thn" position="620,0" size="200,140" alphatest="on" />
     <widget name="filelist" position="400,140" size="425,230" zPosition="2" scrollbarMode="showOnDemand" />
@@ -2519,7 +2519,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
   </screen>
   <screen name="Pic_Exif" position="225,180" size="830,380" title="Info">
     <eLabel position="380,10" size="2,360" backgroundColor="blue_tux2" />
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_picshow.png" position="30,240" size="128,128" zPosition="1" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/picshow.png" position="30,240" size="128,128" zPosition="1" alphatest="on" />
     <widget source="menu" render="Listbox" position="400,10" size="425,352" scrollbarMode="showOnDemand" selectionDisabled="1">
       <convert type="TemplatedMultiContent">
 				{"template": [  MultiContentEntryText(pos = (5, 7), size = (230, 24), flags = RT_HALIGN_LEFT, text = 0),
@@ -2592,7 +2592,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <widget source="global.CurrentTime" render="TuxWatches" position="44,436" size="30,30" zPosition="2" foregroundColor="blue_tux3" alphatest="on">
       <convert type="TuxExtraNumText">hourHand</convert>
     </widget>
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_movie.png" position="30,10" size="100,100" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/movie.png" position="30,10" size="100,100" alphatest="on" />
     <eLabel position="380,10" size="2,505" backgroundColor="blue_tux2" />
     <eLabel position="400,60" size="743,2" backgroundColor="blue_tux2" />
     <eLabel position="400,444" size="743,3" backgroundColor="blue_tux2" zPosition="10" />
@@ -2646,7 +2646,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
       <convert type="TuxExtraNumText">hourHand</convert>
     </widget>
     <eLabel position="380,10" size="2,360" backgroundColor="blue_tux2" />
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_movie.png" position="30,10" size="100,100" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/movie.png" position="30,10" size="100,100" alphatest="on" />
     <widget name="menu" position="400,20" size="420,350" scrollbarMode="showOnDemand" />
   </screen>
   <screen name="MoviePlayer" position="0,0" size="1280,720" title=" " flags="wfNoBorder">
@@ -2725,7 +2725,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <widget source="global.CurrentTime" render="TuxWatches" position="44,436" size="30,30" zPosition="2" foregroundColor="blue_tux3" alphatest="on">
       <convert type="TuxExtraNumText">hourHand</convert>
     </widget>
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_movie.png" position="30,10" size="100,100" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/movie.png" position="30,10" size="100,100" alphatest="on" />
     <eLabel position="380,10" size="2,505" backgroundColor="blue_tux2" />
     <eLabel position="420,4" size="680,385" backgroundColor="un10315" />
     <widget name="Video" position="450,20" size="620,350" zPosition="1" backgroundColor="transparent" />
@@ -2776,7 +2776,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
   </screen>
   <screen name="ZapHistoryBrowser" position="225,180" size="830,380" title="Zap-History Browser">
     <eLabel position="380,10" size="2,360" backgroundColor="blue_tux2" />
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_zap-history.png" position="30,240" size="128,128" zPosition="1" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/zap-history.png" position="30,240" size="128,128" zPosition="1" alphatest="on" />
     <eLabel position="400,50" size="420,2" backgroundColor="grey_tux" />
     <eLabel position="400,90" size="420,2" backgroundColor="grey_tux" />
     <eLabel position="400,130" size="420,2" backgroundColor="grey_tux" />
@@ -2963,7 +2963,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <widget source="global.CurrentTime" render="Label" position="10,491" size="350,22" font="Regular;20" zPosition="5" halign="center" foregroundColor="blue_tux" backgroundColor="blue_tux4" transparent="1">
       <convert type="TuxClockToText">Date</convert>
     </widget>
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_youtube.png" position="10,10" size="110,110" zPosition="1" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/youtube.png" position="10,10" size="110,110" zPosition="1" alphatest="on" />
     <eLabel position="380,10" size="2,505" backgroundColor="blue_tux2" />
     <!-- eLabel position="400,416" size="743,2" backgroundColor="blue_tux2" / -->
     <eLabel position="400,460" size="743,2" backgroundColor="blue_tux2" />
@@ -3021,7 +3021,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <widget source="global.CurrentTime" render="TuxWatches" position="44,436" size="30,30" zPosition="2" foregroundColor="blue_tux3" alphatest="on">
       <convert type="TuxExtraNumText">hourHand</convert>
     </widget>
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_youtube.png" position="10,10" size="110,110" zPosition="1" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/youtube.png" position="10,10" size="110,110" zPosition="1" alphatest="on" />
     <eLabel position="380,10" size="2,505" backgroundColor="blue_tux2" />
     <!-- eLabel position="400,416" size="743,2" backgroundColor="blue_tux2" / -->
     <eLabel position="400,460" size="743,2" backgroundColor="blue_tux2" />
@@ -3076,7 +3076,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <widget source="global.CurrentTime" render="TuxWatches" position="44,436" size="30,30" zPosition="2" foregroundColor="blue_tux3" alphatest="on">
       <convert type="TuxExtraNumText">hourHand</convert>
     </widget>
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_youtube.png" position="10,10" size="110,110" zPosition="1" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/youtube.png" position="10,10" size="110,110" zPosition="1" alphatest="on" />
     <eLabel position="380,10" size="2,505" backgroundColor="blue_tux2" />
     <!-- eLabel position="400,416" size="743,2" backgroundColor="blue_tux2" / -->
     <eLabel position="400,460" size="743,2" backgroundColor="blue_tux2" />
@@ -3132,7 +3132,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <widget source="global.CurrentTime" render="TuxWatches" position="44,436" size="30,30" zPosition="2" foregroundColor="blue_tux3" alphatest="on">
       <convert type="TuxExtraNumText">hourHand</convert>
     </widget>
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_youtube.png" position="10,10" size="110,110" zPosition="1" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/youtube.png" position="10,10" size="110,110" zPosition="1" alphatest="on" />
     <eLabel position="380,10" size="2,505" backgroundColor="blue_tux2" />
     <!-- eLabel position="400,416" size="743,2" backgroundColor="blue_tux2" / -->
     <eLabel position="400,460" size="743,2" backgroundColor="blue_tux2" />
@@ -3163,7 +3163,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <widget source="global.CurrentTime" render="TuxWatches" position="44,436" size="30,30" zPosition="2" foregroundColor="blue_tux3" alphatest="on">
       <convert type="TuxExtraNumText">hourHand</convert>
     </widget>
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_youtube.png" position="10,10" size="110,110" zPosition="1" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/youtube.png" position="10,10" size="110,110" zPosition="1" alphatest="on" />
     <eLabel position="380,10" size="2,505" backgroundColor="blue_tux2" />
     <!-- eLabel position="400,416" size="743,2" backgroundColor="blue_tux2" / -->
     <eLabel position="400,460" size="743,2" backgroundColor="blue_tux2" />
@@ -3204,7 +3204,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <widget source="global.CurrentTime" render="TuxWatches" position="44,436" size="30,30" zPosition="2" foregroundColor="blue_tux3" alphatest="on">
       <convert type="TuxExtraNumText">hourHand</convert>
     </widget>
-    <ePixmap pixmap="FHD6-Eminem/icons_menu/pro_help.png" position="30,15" size="128,128" alphatest="on" />
+    <ePixmap pixmap="FHD6-Eminem/icons_menu/help.png" position="30,15" size="128,128" alphatest="on" />
     <eLabel position="380,10" size="2,505" backgroundColor="blue_tux2" />
     <eLabel text="help" position="400,20" size="485,35" font="Regular;30" halign="right" zPosition="1" foregroundColor="blue_tux" backgroundColor="blue_tux4" transparent="1" />
     <widget name="list" position="440,70" size="450,380" scrollbarMode="showOnDemand" />
