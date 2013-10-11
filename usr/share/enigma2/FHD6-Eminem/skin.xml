@@ -28,6 +28,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <color name="color_tux2" value="#0a3a3a3a" />
     <color name="color_tux3" value="#00222222" />
     <color name="dark" value="#25062748" />
+    <color name="darkgrey" value="#00666666" />
     <color name="foreground" value="#00ffffff" />
     <color name="green" value="#00389416" />
     <color name="grey" value="#00aaaaaa" />
