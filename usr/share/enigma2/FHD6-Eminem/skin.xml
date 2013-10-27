@@ -548,7 +548,6 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
   </screen>
   <screen name="menu_mainmenu" position="center,180" size="830,380" title="Main menu">
     <eLabel position="380,10" size="2,360" backgroundColor="blue_tux2" />
-    <!-- widget source="title" render="Label"  position="140,5" size="220,50" font="Regular;22" halign="right" zPosition="1" foregroundColor="blue_tux" backgroundColor="blue_tux4" transparent="1"/ -->
     <widget source="menu" render="Listbox" position="400,15" size="420,350" selectionPixmap="FHD6-Eminem/menu/select_m1.png" enableWrapAround="1" scrollbarMode="showNever" transparent="1">
       <convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (25, 5), size = (350, 25), flags = RT_HALIGN_LEFT, text = 0) ],
@@ -652,7 +651,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
       <convert type="MenuEntryCompare">parental_setup</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/main/wizard.png" position="30,240" size="128,128" zPosition="3">
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/main/wizard.png" position="30,240" size="128,117" zPosition="3">
       <convert type="MenuEntryCompare">default_wizard</convert>
       <convert type="ConditionalShowHide" />
     </widget>
@@ -912,7 +911,6 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
   <screen name="menu_harddisk" position="225,180" size="830,380" title=" ">
     <eLabel position="380,10" size="2,360" backgroundColor="blue_tux2" />
     <ePixmap pixmap="FHD6-Eminem/icons_menu/hdd.png" position="30,240" size="128,128" zPosition="1" alphatest="on" />
-    <!-- widget source="title" render="Label"   position="140,5" size="220,50" font="Regular;22" halign="right" zPosition="1" foregroundColor="blue_tux" backgroundColor="blue_tux4" transparent="1" / -->
     <widget source="menu" render="Listbox" position="400,20" size="420,350" enableWrapAround="1" scrollbarMode="showNever" transparent="1">
       <convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (25, 5), size = (280, 25), flags = RT_HALIGN_LEFT, text = 0) ],
@@ -944,7 +942,6 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     </widget>
     <ePixmap pixmap="FHD6-Eminem/icons_menu/movie.png" position="30,10" size="100,100" alphatest="on" />
     <eLabel position="380,10" size="2,505" backgroundColor="blue_tux2" />
-    <!--widget source="title" render="Label"  position="20,110" size="220,35" font="Regular;23" / -->
     <widget source="menu" render="Listbox" position="40,150" size="300,225" scrollbarMode="showOnDemand">
       <convert type="StringList" />
     </widget>
@@ -1169,8 +1166,6 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <widget source="IF" render="Label" position="530,325" size="290,21" zPosition="10" font="Regular;18" halign="left" backgroundColor="blue_tux4" transparent="1" />
     <widget source="Statustext" render="Label" position="410,345" size="115,21" zPosition="10" font="Regular;18" halign="left" backgroundColor="blue_tux4" transparent="1" />
     <widget name="statuspic" position="530,345" size="18,17" zPosition="10" pixmaps="FHD6-Eminem/buttons/net_on.png,FHD6-Eminem/buttons/net_off.png" transparent="1" alphatest="on" />
-    <!-- ePixmap pixmap="FHD6-Eminem/buttons/red.png" position="40,100" size="16,16"  alphatest="on" />
-                <widget source="key_red" render="Label"          position="70,98"  size="240,38" font="Regular;18" halign="left" foregroundColor="blue_tux" backgroundColor="blue_tux4" transparent="1" / -->
   </screen>
   <screen name="AdapterSetup" position="225,180" size="830,380" title="Network Setup">
     <eLabel position="380,10" size="2,360" backgroundColor="blue_tux2" />
@@ -1202,9 +1197,6 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <ePixmap pixmap="FHD6-Eminem/buttons/blue.png" position="40,220" size="16,16" alphatest="on" />
     <widget source="key_red" render="Label" position="70,98" size="240,38" font="Regular;18" zPosition="10" valign="top" halign="left" foregroundColor="blue_tux" backgroundColor="blue_tux4" transparent="1" />
     <widget source="key_blue" render="Label" position="70,218" size="240,38" font="Regular;18" zPosition="10" valign="top" halign="left" foregroundColor="blue_tux" backgroundColor="blue_tux4" transparent="1" />
-    <!-- eLabel text="Cancel"           position="70,98"  size="240,38" font="Regular;18" foregroundColor="blue_tux" backgroundColor="blue_tux4" transparent="1"/>
-                <eLabel text="Nameserver Setup" position="70,218" size="240,38" font="Regular;18" foregroundColor="blue_tux" backgroundColor="blue_tux4" transparent="1"/>
-                -->
   </screen>
   <screen name="NameserverSetup" position="225,180" size="830,380" title="Nameserver Setup">
     <eLabel position="380,10" size="2,360" backgroundColor="blue_tux2" />
@@ -1457,8 +1449,6 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
 				</convert>
     </widget>
     <widget source="status" render="Label" position="410,310" size="410,60" zPosition="10" halign="center" valign="center" font="Regular;20" foregroundColor="blue_tux" backgroundColor="blue_tux4" transparent="1" shadowColor="black" shadowOffset="-1,-1" />
-    <!--ePixmap pixmap="FHD6-Eminem/buttons/red.png"    position="240,340" size="16,16"  alphatest="on" />
-		<widget source="key_red"    render="Label"         position="270,338"  size="240,38" font="Regular;18" zPosition="10" valign="top" halign="left" foregroundColor="blue_tux" backgroundColor="blue_tux4" transparent="1"/ -->
   </screen>
   <screen name="SoftwareManagerSetup" position="225,180" size="830,380" title="SoftwareManager setup">
     <widget name="config" position="20,10" size="790,300" scrollbarMode="showOnDemand" />
@@ -1730,7 +1720,6 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
   </screen>
   <screen name="SimpleSatScan" position="90,75" size="1100,590" title="Simple Satellite Scan">
     <!-- dB -->
-    <!--widget source="Frontend" render="Label" position="190,10" zPosition="2" size="260,20" font="Regular;19" foregroundColor="#02f408" halign="center" valign="center" transparent="1"-->
     <widget source="Frontend" render="Label" position="375,5" zPosition="2" size="300,40" font="Regular;38" halign="center" valign="center" transparent="1">
       <convert type="FrontendInfo">SNRdB</convert>
     </widget>
@@ -2273,10 +2262,6 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <widget source="session.CurrentService" render="Label" position="440,512" size="440,25" font="Regular;23" backgroundColor="blue_tux4" transparent="1">
       <convert type="ServiceName">Reference</convert>
     </widget>
-    <!-- Caid Info -->
-    <!-- widget source="session.CurrentService" render="Label" position="865,516" size="230,25" font="Regular;18" halign="right" foregroundColor="grey" backgroundColor="blue_tux4" transparent="1">
-		        <convert type="ExtremeInfo">CaidInfo</convert>
-		</widget -->
     <ePixmap pixmap="FHD6-Eminem/buttons/left_key.png" position="1110,488" size="35,25" alphatest="on" />
     <ePixmap pixmap="FHD6-Eminem/buttons/right_key.png" position="1110,514" size="35,25" alphatest="on" />
     <ePixmap pixmap="FHD6-Eminem/buttons/red.png" position="410,555" size="16,16" alphatest="blend" />
@@ -2481,7 +2466,6 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <widget name="titletext" position="0,0" size="0,0" />
   </screen>
   <screen name="NumberZap" position="50,100" size="200,80" title="Channel">
-    <!--widget name="channel" position="35,15" size="110,28" font="Regular;25" / -->
     <widget name="number" position="15,2" size="170,55" halign="center" font="Regular; 25" />
   </screen>
   <screen name="ChapterZap" position="50,100" size="280,60" title="Chapter">
@@ -2733,8 +2717,6 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
       <convert type="ServicePosition">Position,Detailed</convert>
     </widget>
     <widget name="SeekState" position="620,425" size="100,25" halign="right" font="Regular;20" zPosition="1" valign="center" />
-    <!-- eLabel                  position="103,108" size="204,274" backgroundColor="blue_tux2" />
-		<eLabel                  position="105,110" size="200,270" backgroundColor="#021122" / -->
     <widget source="cutlist" render="Listbox" position="40,150" size="300,225" zPosition="1" scrollbarMode="showOnDemand" transparent="1">
       <convert type="TemplatedMultiContent">
 				{"template": [
@@ -2811,7 +2793,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
 	<eLabel name="new eLabel" position="15,490" size="600,22" text="Or Download It From : https://www.mediafire.com/persianempire" halign="left" font="Regular; 18" foregroundColor="win_tux" transparent="1" />
   </screen>
   <screen name="NetworkWizard" position="60,120" size="1160,520" title="Welcome">
-    <widget name="wizard" position="30,30" size="128,128" pixmap="FHD6-Eminem/main/wizard.png" zPosition="10" transparent="1" alphatest="on" />
+    <widget name="wizard" position="30,30" size="128,117" pixmap="FHD6-Eminem/main/wizard.png" zPosition="10" transparent="1" alphatest="on" />
     <ePixmap pixmap="FHD6-Eminem/buttons/red.png" position="40,180" size="16,16" alphatest="blend" />
     <widget name="languagetext" position="70,178" size="240,40" font="Regular;18" />
     <widget name="rc" position="980,20" size="154,500" pixmaps="skin_default/rc.png,skin_default/rcold.png" zPosition="10" alphatest="on" />
@@ -2830,7 +2812,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
 	<eLabel name="new eLabel" position="15,490" size="600,22" text="Or Download It From : https://www.mediafire.com/persianempire" halign="left" font="Regular; 18" foregroundColor="win_tux" transparent="1" />
   </screen>
   <screen name="DefaultWizard" position="60,120" size="1160,520" title="Welcome">
-    <widget name="wizard" position="30,30" size="128,128" pixmap="FHD6-Eminem/main/wizard.png" zPosition="10" transparent="1" alphatest="on" />
+    <widget name="wizard" position="30,30" size="128,117" pixmap="FHD6-Eminem/main/wizard.png" zPosition="10" transparent="1" alphatest="on" />
     <ePixmap pixmap="FHD6-Eminem/buttons/red.png" position="40,180" size="16,16" alphatest="blend" />
     <widget name="languagetext" position="70,178" size="240,40" font="Regular;18" />
     <widget name="text" position="320,10" size="600,180" font="Regular;23" backgroundColor="background" transparent="1" />
@@ -2840,7 +2822,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <widget name="config" position="320,215" size="600,300" zPosition="5" scrollbarMode="showOnDemand" transparent="1" />
   </screen>
   <screen name="DefaultSatLists" position="60,120" size="1160,520" title="Welcome">
-    <widget name="wizard" position="30,30" size="128,128" pixmap="FHD6-Eminem/main/wizard.png" zPosition="10" transparent="1" alphatest="on" />
+    <widget name="wizard" position="30,30" size="128,117" pixmap="FHD6-Eminem/main/wizard.png" zPosition="10" transparent="1" alphatest="on" />
     <ePixmap pixmap="FHD6-Eminem/buttons/red.png" position="40,180" size="16,16" alphatest="blend" />
     <widget name="languagetext" position="70,178" size="240,40" font="Regular;18" />
     <widget name="text" position="320,10" size="600,180" font="Regular;23" backgroundColor="background" transparent="1" />
@@ -2850,7 +2832,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <widget name="config" position="320,215" size="600,300" zPosition="5" scrollbarMode="showOnDemand" transparent="1" />
   </screen>
   <screen name="DreamPackageWizard" position="60,120" size="1160,520" title="Welcome">
-    <widget name="wizard" position="30,30" size="128,128" pixmap="FHD6-Eminem/main/wizard.png" zPosition="10" transparent="1" alphatest="on" />
+    <widget name="wizard" position="30,30" size="128,117" pixmap="FHD6-Eminem/main/wizard.png" zPosition="10" transparent="1" alphatest="on" />
     <ePixmap pixmap="FHD6-Eminem/buttons/red.png" position="40,180" size="16,16" alphatest="blend" />
     <widget name="languagetext" position="70,178" size="240,40" font="Regular;18" />
     <widget name="text" position="320,10" size="600,180" font="Regular;23" backgroundColor="background" transparent="1" />
@@ -2860,7 +2842,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <widget name="config" position="320,215" size="600,300" zPosition="5" scrollbarMode="showOnDemand" transparent="1" />
   </screen>
   <screen name="ImageWizard" position="60,120" size="1160,520" title="Welcome">
-    <widget name="wizard" position="30,30" size="128,128" pixmap="FHD6-Eminem/main/wizard.png" zPosition="10" transparent="1" alphatest="on" />
+    <widget name="wizard" position="30,30" size="128,117" pixmap="FHD6-Eminem/main/wizard.png" zPosition="10" transparent="1" alphatest="on" />
     <ePixmap pixmap="FHD6-Eminem/buttons/red.png" position="40,180" size="16,16" alphatest="blend" />
     <widget name="languagetext" position="70,178" size="240,40" font="Regular;18" />
     <widget name="rc" position="980,20" size="154,500" pixmaps="skin_default/rc.png,skin_default/rcold.png" zPosition="10" alphatest="on" />
@@ -2875,7 +2857,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <widget name="config" position="320,215" size="600,300" zPosition="5" scrollbarMode="showOnDemand" transparent="1" />
   </screen>
   <screen name="TutorialWizard" position="60,120" size="1160,520" title="Welcome">
-    <widget name="wizard" position="30,30" size="128,128" pixmap="FHD6-Eminem/main/wizard.png" zPosition="10" transparent="1" alphatest="on" />
+    <widget name="wizard" position="30,30" size="128,117" pixmap="FHD6-Eminem/main/wizard.png" zPosition="10" transparent="1" alphatest="on" />
     <ePixmap pixmap="FHD6-Eminem/buttons/red.png" position="40,180" size="16,16" alphatest="blend" />
     <widget name="languagetext" position="70,178" size="240,40" font="Regular;18" />
     <widget name="rc" position="980,20" size="154,500" pixmaps="skin_default/rc.png,skin_default/rcold.png" zPosition="10" alphatest="on" />
@@ -2886,7 +2868,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     <widget name="list" position="320,215" size="600,300" zPosition="3" />
   </screen>
   <screen name="VideoWizard" position="60,120" size="1160,520" title="Welcome">
-    <widget name="wizard" position="30,30" size="128,128" pixmap="FHD6-Eminem/main/wizard.png" zPosition="10" transparent="1" alphatest="on" />
+    <widget name="wizard" position="30,30" size="128,117" pixmap="FHD6-Eminem/main/wizard.png" zPosition="10" transparent="1" alphatest="on" />
     <ePixmap pixmap="FHD6-Eminem/buttons/red.png" position="40,180" size="16,16" alphatest="blend" />
     <widget name="languagetext" position="70,178" size="240,40" font="Regular;18" />
     <widget name="portpic" position="160,230" size="150,150" zPosition="10" transparent="1" alphatest="on" />
@@ -2906,7 +2888,7 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
 	<eLabel name="new eLabel" position="15,490" size="600,22" text="Or Download It From : https://www.mediafire.com/persianempire" halign="left" font="Regular; 18" foregroundColor="win_tux" transparent="1" />
   </screen>
   <screen name="LanguageWizard" position="60,120" size="1160,520" title="Welcome">
-    <widget name="wizard" position="30,30" size="128,128" pixmap="FHD6-Eminem/main/wizard.png" zPosition="10" transparent="1" alphatest="on" />
+    <widget name="wizard" position="30,30" size="128,117" pixmap="FHD6-Eminem/main/wizard.png" zPosition="10" transparent="1" alphatest="on" />
     <widget name="rc" position="980,20" size="154,500" pixmaps="skin_default/rc.png,skin_default/rcold.png" zPosition="10" alphatest="on" />
     <widget name="arrowdown" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" zPosition="11" alphatest="on" />
     <widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" zPosition="11" alphatest="on" />
@@ -2962,7 +2944,6 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     </widget>
     <ePixmap pixmap="FHD6-Eminem/icons_menu/youtube.png" position="10,10" size="110,110" zPosition="1" alphatest="on" />
     <eLabel position="380,10" size="2,505" backgroundColor="blue_tux2" />
-    <!-- eLabel position="400,416" size="743,2" backgroundColor="blue_tux2" / -->
     <eLabel position="400,460" size="743,2" backgroundColor="blue_tux2" />
     <widget name="config" position="420,10" size="700,50" zPosition="2" scrollbarMode="showNever" transparent="1" />
     <widget source="feedlist" render="Listbox" position="420,70" size="728,385" zPosition="1" scrollbarMode="showOnDemand" transparent="1">
@@ -3020,7 +3001,6 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     </widget>
     <ePixmap pixmap="FHD6-Eminem/icons_menu/youtube.png" position="10,10" size="110,110" zPosition="1" alphatest="on" />
     <eLabel position="380,10" size="2,505" backgroundColor="blue_tux2" />
-    <!-- eLabel position="400,416" size="743,2" backgroundColor="blue_tux2" / -->
     <eLabel position="400,460" size="743,2" backgroundColor="blue_tux2" />
     <widget name="title" position="460,10" size="650,50" zPosition="5" valign="center" halign="left" font="Regular;21" transparent="1" foregroundColor="white" shadowColor="black" shadowOffset="-1,-1" />
     <widget name="starsbg" pixmap="FHD6-Eminem/icons/starsbar_empty.png" position="960,180" size="150,20" zPosition="5" transparent="1" alphatest="on" />
@@ -3075,7 +3055,6 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     </widget>
     <ePixmap pixmap="FHD6-Eminem/icons_menu/youtube.png" position="10,10" size="110,110" zPosition="1" alphatest="on" />
     <eLabel position="380,10" size="2,505" backgroundColor="blue_tux2" />
-    <!-- eLabel position="400,416" size="743,2" backgroundColor="blue_tux2" / -->
     <eLabel position="400,460" size="743,2" backgroundColor="blue_tux2" />
     <widget name="title" position="460,10" size="600,50" zPosition="5" valign="center" halign="left" font="Regular;21" transparent="1" foregroundColor="white" shadowColor="black" shadowOffset="-1,-1" />
     <widget name="detailtext" position="460,80" size="610,370" zPosition="10" font="Regular;21" transparent="1" halign="left" valign="top" />
@@ -3131,7 +3110,6 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     </widget>
     <ePixmap pixmap="FHD6-Eminem/icons_menu/youtube.png" position="10,10" size="110,110" zPosition="1" alphatest="on" />
     <eLabel position="380,10" size="2,505" backgroundColor="blue_tux2" />
-    <!-- eLabel position="400,416" size="743,2" backgroundColor="blue_tux2" / -->
     <eLabel position="400,460" size="743,2" backgroundColor="blue_tux2" />
     <widget name="title" position="460,10" size="600,50" zPosition="5" valign="center" halign="left" font="Regular;21" transparent="1" foregroundColor="white" shadowColor="black" shadowOffset="-1,-1" />
     <widget name="config" position="460,80" size="610,370" zPosition="2" scrollbarMode="showOnDemand" transparent="1" />
@@ -3162,7 +3140,6 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
     </widget>
     <ePixmap pixmap="FHD6-Eminem/icons_menu/youtube.png" position="10,10" size="110,110" zPosition="1" alphatest="on" />
     <eLabel position="380,10" size="2,505" backgroundColor="blue_tux2" />
-    <!-- eLabel position="400,416" size="743,2" backgroundColor="blue_tux2" / -->
     <eLabel position="400,460" size="743,2" backgroundColor="blue_tux2" />
     <widget name="title" position="460,50" size="600,50" zPosition="5" valign="center" halign="left" font="Regular;21" transparent="1" foregroundColor="white" shadowColor="black" shadowOffset="-1,-1" />
     <widget source="tasklist" render="Listbox" position="460,120" size="610,370" zPosition="7" scrollbarMode="showOnDemand" transparent="1">
