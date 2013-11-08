@@ -556,6 +556,14 @@ Full HD - Copyright (C) 2013 GPL-III by MarcinO
 				}
 			</convert>
     </widget>
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/persianpalace.png" position="30,240" size="128,128" zPosition="3">
+      <convert type="MenuEntryCompare">persianpalace</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/pepanel.png" position="30,240" size="128,128" zPosition="3">
+      <convert type="MenuEntryCompare">pepanel</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
     <widget source="menu" render="Pixmap" pixmap="FHD6-Eminem/icons_menu/sub.png" position="30,240" size="128,128" zPosition="3">
       <convert type="MenuEntryCompare">subtitle_selection</convert>
       <convert type="ConditionalShowHide" />
